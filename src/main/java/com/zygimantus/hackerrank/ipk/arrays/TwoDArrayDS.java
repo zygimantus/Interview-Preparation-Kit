@@ -15,7 +15,7 @@ public class TwoDArrayDS {
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 4; j++) {
                 int temp = calculateSum(arr, i, j);
-                if (temp > result)
+                if (temp > result || (i == 0 && j == 0))
                     result = temp;
             }
         }
@@ -31,7 +31,8 @@ public class TwoDArrayDS {
                 result += arr[i + shift_i][j + shift_j];
             }
         }
-        result = result - arr[1 + shift_i][0 + shift_j] - arr[1 + shift_i][2 + shift_j];
+        result = result - arr[1 + shift_i][0 + shift_j];
+        result = result - arr[1 + shift_i][2 + shift_j];
         return result;
     }
 
