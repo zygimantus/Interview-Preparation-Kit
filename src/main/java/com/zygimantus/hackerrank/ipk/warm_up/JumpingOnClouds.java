@@ -1,4 +1,4 @@
-package com.zygimantus.hackerrank.ipk;
+package com.zygimantus.hackerrank.ipk.warm_up;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;

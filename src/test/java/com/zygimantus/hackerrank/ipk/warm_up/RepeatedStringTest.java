@@ -1,4 +1,4 @@
-package com.zygimantus.hackerrank.ipk;
+package com.zygimantus.hackerrank.ipk.warm_up;
 
 import org.junit.Assert;
 import org.junit.Test;
