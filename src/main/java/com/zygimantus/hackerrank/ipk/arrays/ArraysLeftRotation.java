@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class ArraysLeftRotation {
 
-    // Complete the hourglassSum function below.
+    // Complete the rotLeft function below.
     static int[] rotLeft(int[] a, int d) {
 
         int[] result = new int[a.length];
